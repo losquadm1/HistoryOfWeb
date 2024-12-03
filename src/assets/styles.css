@@ -1,1 +1,60 @@
 /* you can put styles in here :) */
+
+/* GLOBAL  things on every page */
+
+
+
+
+
+
+
+/* Home page */
+
+.home {
+    color: lime;
+}
+
+
+
+
+
+
+/*  Aol */
+
+.aol .border {
+    background-color: white;
+    width: 300px;
+    border: 3px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+
+
+
+
+
+/* Myspace */
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+
+}
