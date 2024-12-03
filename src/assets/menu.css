@@ -37,9 +37,7 @@
   width: 100%;
   height: var(--header-height);
   position: fixed;
-  z-index: 10;
-  top: 0;
-  left: 0;
+  bottom: 0;
   background: var(--menu-bg);
 }
 /* this is img element that is the header logo */
