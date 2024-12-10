@@ -1,11 +1,27 @@
+@font-face {
+  font-family: "W95FA";
+  src: url("w95fa.woff2") format("woff2"), url("w95fa.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* you can put styles in here :) */
 
 /* GLOBAL  things on every page */
 
-/* Home page */
+/* CMDP */
 
-.home {
+.CMDP {
   color: lime;
+}
+
+.CMDP {
+  font-family: "W95FA", monospace;
+}
+
+.CMDP {
+  font-size: 1.5rem;
 }
 
 /*  Aol */
@@ -241,11 +257,13 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
   ========================================
   */
 .profile-picture-container {
-  display: grid;
-  grid-template-columns: 170px 115px;
-  grid-template-rows: 176px;
-  grid-column-gap: 15px;
-  margin-bottom: 12px;
+  display: flex;
+  gap: 15px;
+}
+
+.profile-picture-container div {
+  display: flex;
+  flex-direction: column;
 }
 
 .profile-picture-container p {
@@ -269,11 +287,6 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
 
 .gender-age li:first-child {
   margin-top: 28px;
-}
-
-.last-login {
-  grid-area: 1/2;
-  align-self: end;
 }
 
 .last-login li:last-child {
@@ -680,8 +693,7 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
 
 /* twitter */
 
-
-.twitter  * {
+.twitter * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -703,11 +715,10 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.twitter  header {
+.twitter header {
   padding: 0 16px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-
 
 .header-container {
   display: flex;
@@ -759,12 +770,12 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
   margin-left: -5px;
 }
 
-.twitter  small {
+.twitter small {
   color: var(--color-3);
   line-height: 1;
 }
 
-.twitter  main {
+.twitter main {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -804,7 +815,7 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
   padding: 6px 14px 14px 14px;
 }
 
-.twitter  nav {
+.twitter nav {
   padding: 6px 0 14px 0;
   display: flex;
   justify-content: flex-end;
@@ -837,7 +848,7 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
   background-color: var(--color-3);
 }
 
-.twitter  h1 {
+.twitter h1 {
   margin-top: 30px;
   font-size: 21px;
   font-weight: 900;
@@ -961,7 +972,7 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
     max-height: 28%;
   }
 
- .twitter  h1 {
+  .twitter h1 {
     margin-top: 40px;
   }
 }
@@ -971,7 +982,7 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
     font-size: 18px;
   }
 
- .twitter  small {
+  .twitter small {
     font-size: 12px;
   }
 
@@ -980,7 +991,7 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
     max-height: 28%;
   }
 
- .twitter  h1 {
+  .twitter h1 {
     margin-top: 20px;
   }
 
@@ -998,7 +1009,7 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
     font-size: 16px;
   }
 
-.twitter  small {
+  .twitter small {
     font-size: 11px;
   }
 
@@ -1007,7 +1018,7 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
     max-height: 28%;
   }
 
- .twitter h1 {
+  .twitter h1 {
     margin-top: 15px;
   }
 
@@ -1020,9 +1031,8 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
   }
 }
 
-
-.twitter  body {
-  font-family: Arial,sans-serif;
+body.twitter {
+  font-family: Arial, sans-serif;
   color: #292f33;
 }
 
@@ -1111,5 +1121,4 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
   border-radius: 5px;
   max-width: 506px;
   max-height: 506px;
-  
 }

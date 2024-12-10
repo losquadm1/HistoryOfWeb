@@ -1,8 +1,8 @@
 :root {
   /* this is the height of the header bar */
-  --header-height: 130px;
+  --header-height: 0px;
   /* this is the background color of the header bar and panel */
-  --menu-bg: #9ae9cf;
+  --menu-bg: #000000;
   --menu-highlight-hover: white;
 }
 
@@ -10,6 +10,10 @@
   /* leave this on - it helps size things consistently */
   box-sizing: content-box;
   /* border: 1px solid red; */
+}
+
+.main-nav .nav-items-list {
+  color: white !important;
 }
 
 .skip-link {
@@ -37,7 +41,7 @@
   width: 100%;
   height: var(--header-height);
   position: fixed;
-  bottom: 0;
+  bottom: 65px;
   background: var(--menu-bg);
 }
 /* this is img element that is the header logo */
