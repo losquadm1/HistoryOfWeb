@@ -1057,7 +1057,6 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
 }
 
 .info-container-1 {
-  margin-block: 20px;
   display: flex;
   gap: 10px;
   align-items: flex-end;
@@ -1113,9 +1112,11 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
   border-bottom: 1px solid var(--color-2);
 }
 
-.tweets-nav {    display: flex;
+.tweets-nav {       
+      display: flex;
       list-style-type: none;
-      flex-direction: row-reverse;
+      flex-direction: row;
+      padding: 0px;
     }
 
 .tweets-nav li {

@@ -183,5 +183,6 @@ main {
 /* this is the styling that is applied to the menu links on desktop */
 .nav-items-list2 a {
   font-size: 3rem;
+  padding: 40px;
 }
 }
