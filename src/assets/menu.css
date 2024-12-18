@@ -1,16 +1,31 @@
 :root {
   /* this is the height of the header bar */
-  --header-height: 0px;
+  --header-height: -31px;
   /* this is the background color of the header bar and panel */
   --menu-bg: #000000;
   --menu-highlight-hover: white;
 }
 
+@font-face {
+  font-family: 'W95FA';
+  src: url('w95fa.woff2') format('woff2'),
+      url('w95fa.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Command Prompt Era */
+
+.wfont {
+  color: #05FF00;
+  font-family: 'W95FA', sans-serif;
+}
 * {
   /* leave this on - it helps size things consistently */
   box-sizing: content-box;
   /* border: 1px solid red; */
-}
+
 
 .main-nav .nav-items-list {
   color: white !important;
@@ -18,7 +33,7 @@
 
 .skip-link {
   opacity: 0;
-  position: fixed;
+  position: sticky;
   z-index: 10000;
   top: -10rem;
   left: 1rem;
@@ -37,11 +52,11 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: stretch;
+  align-items: center;
   width: 100%;
-  height: var(--header-height);
+  height: 10%;
   position: fixed;
-  bottom: 65px;
+  bottom: 0px;
   background: var(--menu-bg);
 }
 /* this is img element that is the header logo */
@@ -57,9 +72,9 @@
   transition: background-color 0.3s;
 }
 .nav-items-list {
-  display: flex;
+  display: none;
   flex-direction: column;
-  position: absolute;
+  position: relative;
   top: var(--header-height);
   left: 0;
   width: 100%;
@@ -74,7 +89,7 @@
 
 /* this is the class that is applied when the mobile nav disappears */
 .nav-items-list-hidden {
-  opacity: 0;
+  opacity: 100;
   pointer-events: none;
   /* you can replace this with a different transform to change the direction it moves out in */
   transform: translateY(-100px);
@@ -109,11 +124,11 @@
 
 /* this is the actual button that toggles the menu */
 .btn-toggle-menu {
-  display: flex;
+  display: none;
   flex-direction: column;
-  gap: 2px;
+  gap: 0px;
   align-items: center;
-  padding: 1rem;
+  padding: 0rem;
   border: none;
   background: transparent;
   z-index: 1000;
@@ -127,7 +142,7 @@ main {
 }
 
 /* this media query sets the point where the layout transitions from top bar to hamburger */
-@media (min-width: 640px) {
+@media (min-width: 0px) {
   /* this makes the top bar menu items go across in a row on desktop */
   nav.main-nav {
     display: flex;

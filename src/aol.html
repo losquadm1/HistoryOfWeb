@@ -4,78 +4,48 @@
   <body class="aol">
     {% include 'header' %}
     <main id="main-content">
-      <h1>site stuff goes here</h1>
-
-      <div class="border">
-        <p>Chatroom 1</p>
-        <p>Chatroom 2</p>
-        <p>Chatroom 3</p>
-        <p>Chatroom 4</p>
+      <div class="window">
+        <header class="window__header">
+          <h1>Spongegar : Patar - Instant Message</h1>
+          <div>
+            <button class="header-button header-button--minimize">
+              <div></div>
+            </button>
+            <button class="header-button header-button--expand">
+              <div></div>
+            </button>
+            <button class="header-button header-button--danger">
+              <div></div>
+              <div></div>
+            </button> 
+          </div>
+        </header>
+        <nav class="window__navigation">
+          <ul>
+            <li><span class="link-shortcut">F</span>ile</li>
+            <li><span class="link-shortcut">E</span>dit</li>
+            <li>I<span class="link-shortcut">n</span>sert</li>
+            <li><span class="link-shortcut">P</span>eople</li>
+          </ul>
+        </nav>
+        <div class="window__body">
+          <ul class="messages">
+            <li class="message">
+              <span class="message__author">Spongegar: </span>
+              <span class="message__text">Hi, Patar!</span>
+            </li>
+            <li class="message message--user">
+              <span class="message__author">Patar: </span>
+              <span class="message__text">Hi Spongegar!</span>
+            </li>
+            <li class="message message--user">
+              <span class="message__author">Patar: </span>
+              <span class="message__text">Have you seen Squog?</span>
+            </li>
+          </ul>
+          <section class="message-actions">
+            <textarea class="message-actions__textarea">No Squog in sight!</textarea>
+            <button class="message-actions__send">Send</button>
+          </section>
+        </div>
       </div>
-
-      <div class="border">
-        <p>
-          <span class="green">Host</span>: The first stage in the evolution of
-          what we now know as the World Wide Web wasn’t explicitly named, but
-          the era of Internet Relay Chat rooms and personally hosted HTML sites
-          with services like Geocities would later be called Web 1.0. These
-          sites had to be designed with the knowledge that users would be
-          viewing them on small, low resolution monitors, and loading them onto
-          consumer-grade hardware. User Interfaces had to be designed around
-          these performance limitations, as readable as possible while taking up
-          as little space as possible.
-        </p>
-        <p>
-          <span class="blue">chatbot1</span>: oh so like instead of twitter
-          everybody used to have to go on their own websites and stuff
-        </p>
-        <p>
-          <span class="green">Host</span>: Yes. Without large, centralized
-          social media platforms, web users would congregate in smaller
-          communities based on more niche interests. Content on websites was
-          consumed passively, where the websites were largely static and didn’t
-          prompt users to contribute any content or interactions.
-        </p>
-        <p>
-          <span class="blue">chatbot1</span>: thats cool, sounds kinda boring
-          tho :/
-        </p>
-        <p>
-          <span class="green">Host</span>: I wouldn’t call it “boring,” there
-          was definitely less overall content to interact with, but the
-          limitations created by low bandwidth connections and less powerful
-          computer hardware forced those online to find creative solutions for
-          communicating with one another. One small example from the early
-          2000’s was a website, "yourethemannowdog.com"
-        </p>
-        <p>
-          <span class="green">Host</span>: Created by Max Goldberg, the website
-          contains a single screenshot of Sean Connery tiled over and over to
-          the size of the user’s browser window, and a looping sound clip from
-          the movie Finding Forrester. Launched in 2001, the site gained enough
-          traction that other Internet users began reproducing and hosting
-          similar websites with different imagery. The bizarre form of these web
-          pages are almost imperceptible without the memetic context users in
-          the 2000’s would have.
-        </p>
-        <p>
-          <span class="blue">chatbot1</span>: so what are we talking on now?
-        </p>
-        <p>
-          <span class="green">Host</span>: This is an Internet Relay Chat,
-          before websites were able to support real-time user communication,
-          services like AOL Instant Messenger would connect users with
-          text-based messages. These could be one-on-one interactions, or larger
-          public groups focused on specific topics. Either way, Internet users
-          would largely begin the practice of conversing with anonymous
-          strangers and making real connections with people in a digital space.
-        </p>
-        <p>
-          <span class="blue">chatbot1</span>: ohhh ok, i see how this kinda
-          stuff got started. what happened after though?
-        </p>
-      </div>
-    </main>
-    {% include 'footer' %}
-  </body>
-</html>
