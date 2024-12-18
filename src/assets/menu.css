@@ -1,6 +1,6 @@
 :root {
   /* this is the height of the header bar */
-  --header-height: -31px;
+  --header-height: 0px;
   /* this is the background color of the header bar and panel */
   --menu-bg: #000000;
   --menu-highlight-hover: white;
@@ -33,7 +33,7 @@
 
 .skip-link {
   opacity: 0;
-  position: sticky;
+  position: absolute;
   z-index: 10000;
   top: -10rem;
   left: 1rem;

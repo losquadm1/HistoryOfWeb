@@ -229,7 +229,9 @@ textarea {
 /* Myspace
 https://codepen.io/chriscoyier/pen/qBNOVaW
 */
-
+.myspace "main-nav" {
+  scale: 6rem;
+}
 .myspace {
   box-sizing: border-box;
 }
@@ -1317,4 +1319,13 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
   max-width: 606px;
   max-height: 606px;
   
+}
+
+.second-container {
+  margin: auto;
+  background-color: white;
+}
+.twitter {
+  margin: 0; /* Remove default margins */
+  overflow-x: hidden; /* Disable horizontal scrolling */
 }
