@@ -1311,7 +1311,10 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
   line-height: 18px;
   padding: 0px 240px 0px 0px
 }
-
+.tweetEntry-bio {
+  font-size: 14px;
+  line-height: 18px;
+}
 
 
 .second-container {
