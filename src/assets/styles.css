@@ -109,17 +109,17 @@
 }
 
 .header-button--danger > div {
-  height: 4em;
+  height: 2em;
   width: 2em;
 }
 .header-button--danger > div:first-of-type {
   position: absolute;
   border-left: 2px solid var(--white);
-  transform: rotate(45deg) translateY(-2px) translateX(1px);
+  transform: rotate(45deg) translateY(1px) translateX(12px);
 }
 .header-button--danger > div:last-of-type {
   border-right: 2px solid var(--white);
-  transform: rotate(-45deg) translateY(0px) translateX(-1px);
+  transform: rotate(-45deg) translateY(1px) translateX(-12px);
 }
 
 .header-button--danger:hover {
