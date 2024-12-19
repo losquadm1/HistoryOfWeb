@@ -18,6 +18,11 @@
   font-size: 1.5em
   background-color: black;
 }
+.home body{
+  background: #000;
+  padding-top: 10px;
+} 
+
 
 /*  Aol */
 
@@ -222,6 +227,12 @@ textarea {
 }
 
 .message-actions__send {
+  .home {
+  color: #05FF00;
+  font-family: 'W95FA', sans-serif;
+  font-size: 1.5em
+  background-color: black;
+}
   background: var(--window-background);
   border: 1px solid var(--grey)
 }
@@ -736,7 +747,7 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
 .friend-pic-container {
   display: grid;
   grid-template-columns: repeat(4, 109px);
-  grid-template-rows: 160px 193px;
+  grid-template-rows: 160px 1px;
 }
 
 .friend-pic-container figure {
@@ -1001,6 +1012,7 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
   cursor: pointer;
   transition-duration: 0.3s;
   scale: .8;
+  margin-left: -20px;
 }
 
 .twitter-profile-picture:hover {
@@ -1319,6 +1331,7 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
 
 
 .second-container {
+  max-width: 618px;
   margin: auto;
   background-color: white;
 }
