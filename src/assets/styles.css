@@ -12,17 +12,12 @@
 
 /* Command Prompt Era */
 
-.home {
+.home{
   color: #05FF00;
   font-family: 'W95FA', sans-serif;
-  font-size: 1.5em
-  background-color: black;
+  font-size: 1.1em;
+  line-height:20px
 }
-.home body{
-  background: #000;
-  padding-top: 10px;
-} 
-
 
 /*  Aol */
 
@@ -231,7 +226,6 @@ textarea {
   color: #05FF00;
   font-family: 'W95FA', sans-serif;
   font-size: 1.5em
-  background-color: black;
 }
   background: var(--window-background);
   border: 1px solid var(--grey)
