@@ -216,16 +216,14 @@ textarea {
 }
 
 .message-actions__textarea {
+  font-family: 'W95FA', sans-serif;
   border: 2px solid black;
   border-bottom-color: rgb(249, 248, 244);
   border-right-color: rgb(249, 248, 244);
 }
 
 .message-actions__send {
-  .home {
-  color: #05FF00;
   font-family: 'W95FA', sans-serif;
-  font-size: 1.5em
 }
   background: var(--window-background);
   border: 1px solid var(--grey)
