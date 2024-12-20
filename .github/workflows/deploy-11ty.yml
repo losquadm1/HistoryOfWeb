@@ -1,7 +1,6 @@
 # Simple workflow for building 11ty site and deploying to GitHub Pages
 name: Build 11ty site and deploy to Pages
 
-theme: jekyll-theme-minimal
 on:
   # Runs on pushes targeting the default branch
   push:
