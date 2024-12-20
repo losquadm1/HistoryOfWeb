@@ -225,16 +225,12 @@ textarea {
 .message-actions__send {
   font-family: 'W95FA', sans-serif;
 }
-  background: var(--window-background);
-  border: 1px solid var(--grey)
-}
-
 
 
 /* Myspace
 https://codepen.io/chriscoyier/pen/qBNOVaW
 */
-.myspace "main-nav" {
+.myspace main-nav {
   scale: 6rem;
 }
 .myspace {
