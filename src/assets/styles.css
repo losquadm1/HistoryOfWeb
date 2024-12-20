@@ -1003,8 +1003,8 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
   border-radius: 50%;
   cursor: pointer;
   transition-duration: 0.3s;
-  scale: .8;
   margin-left: -20px;
+  margin-top: -30px;
 }
 
 .twitter-profile-picture:hover {
@@ -1065,7 +1065,7 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
   gap: 10px;
   align-items: flex-end;
   color: var(--color-3);
-  font-size: 14px;
+  font-size: 13px;
   flex-wrap: wrap;
 }
 
@@ -1094,7 +1094,7 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
 }
 
 .info-follow {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
   display: flex;
   align-items: center;
@@ -1224,7 +1224,7 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
   }
 
   .tweets-nav {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .tweets-nav li div {
@@ -1276,9 +1276,9 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
 }
 .tweetEntry-content {
   display: block;
-  font-size: 14px;
+  font-size: 13px;
   margin-left: 58px;
-  font-size: 14px;
+  font-size: 13px;
 }
 .tweetEntry-account-group {
   color: #8899a6;
@@ -1288,36 +1288,36 @@ https://codepen.io/chriscoyier/pen/qBNOVaW
 }
 .tweetEntry-avatar {
   float: left;
-  height: 48px;
-  width: 48px;
+  height: 65px;
+  width: 65px;
   margin-left: -58px;
   border-radius: 5px;
 }
 .tweetEntry-fullname {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 13px;
   color: #292f33;
-  padding: 0px;
+  padding: 0px 0px 0px 14px;
 }
 .tweetEntry-username {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 13px;
   color: #b1bbc3;
   padding: 0px;
 }
 .tweetEntry-timestamp {
-  font-size: 14px;
+  font-size: 13px;
   color: #b1bbc3;
   padding: 0px;
 }
 .tweetEntry-text-container {
-  font-size: 14px;
+  font-size: 13px;
   color: #292f33;
   line-height: 18px;
-  padding: 0px 240px 0px 0px
+  padding: 0px 0px 0px 20px
 }
 .tweetEntry-bio {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 18px;
 }
 
